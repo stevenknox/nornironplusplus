@@ -24,12 +24,13 @@
     "react/jsx-no-undef": ["error", { "allowGlobals": true }],
     "no-use-before-define": "off",
     "react/no-children-prop": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ],
+    "prettier/prettier": 0,
+    // "prettier/prettier": [
+    //   "error",
+    //   {
+    //     "endOfLine": "auto"
+    //   }
+    // ],
     "jsx-a11y/anchor-is-valid": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"

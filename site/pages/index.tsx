@@ -20,10 +20,10 @@ const Landing = ({ docs }: Props) => {
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
               <h1 className="text-4xl tracking-tight  text-gray-50 sm:text-5xl md:text-6xl">
-                Aussie++
+                NornIron++
               </h1>
               <p className="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                The programming language from down under.
+                The programming language for our wee country
               </p>
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
@@ -46,14 +46,14 @@ const Landing = ({ docs }: Props) => {
                   Made by{' '}
                   <a
                     className="text-blue-500 hover:text-blue-600"
+                    href="https://twitter.com/stevenknox101">
+                    @stevenknox101
+                  </a>
+                  , Forked from the awesome Aussie++ {' '}
+                  <a
+                    className="text-blue-500 hover:text-blue-600"
                     href="https://twitter.com/zack_overflow">
                     @zack_overflow
-                  </a>
-                  , inspired by{' '}
-                  <a
-                    href="https://www.reddit.com/r/ProgrammerHumor/comments/oa8chw/australian_programming_language/"
-                    className="text-blue-400 hover:text-gray-100">
-                    Reddit
                   </a>
                 </h1>
               </div>

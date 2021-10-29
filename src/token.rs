@@ -75,10 +75,10 @@ pub enum Kind {
 impl Kind {
     pub fn literal(&self) -> String {
         match self {
-            Kind::Import => "impoht me func",
-            Kind::FuckinPiker => "fuckinpiker",
+            Kind::Import => "give'is a",
+            Kind::FuckinPiker => "later mate",
             Kind::Modulo => "%",
-            Kind::MateFuckThis => "mate fuck this",
+            Kind::MateFuckThis => "loada balls",
             Kind::LeftBracket => "[",
             Kind::RightBracket => "]",
             Kind::Until => "until",
@@ -106,19 +106,19 @@ impl Kind {
             Kind::BangEqual => "!=",
             Kind::And => "&&",
             Kind::Or => "||",
-            Kind::Gimme => "gimme",
+            Kind::Gimme => "No worries, its",
             Kind::IllHaveA => "i'll have a",
             Kind::BuggerAll => "bugger all",
-            Kind::Cheers => "cheers c***!", // Chook bickey (end of program)
-            Kind::Whatabout => "whatabout", // Whatabout (else)
-            Kind::Walkabout => "walkabout", // Walkabout (for loop)
-            Kind::GdayMate => "g'day mate!", // G'DAY MATE! (program start)
+            Kind::Cheers => "see ya later", // Chook bickey (end of program)
+            Kind::Whatabout => "dander", // Whatabout (else)
+            Kind::Walkabout => "Giz a go", // Walkabout (for loop)
+            Kind::GdayMate => "Whats the craic?", // G'DAY MATE! (program start)
             Kind::IReckon => "i reckon",    // I reckon (var decl)
             Kind::YaReckon => "ya reckon",  // Ya reckon (analogous to if)
-            Kind::HardYakkaFor => "the hard yakka for", // Hard yakka for (function decl)
-            Kind::Bail => "bail",           // bail (return)
-            Kind::NahYeah => "nah, yeah",   // true
-            Kind::YeahNah => "yeah, nah",   // false
+            Kind::HardYakkaFor => "do me a wee favor", // Hard yakka for (function decl)
+            Kind::Bail => "split",           // bail (return)
+            Kind::NahYeah => "aye",   // true
+            Kind::YeahNah => "nope",   // false
             Kind::Ident(ref s) => s.as_str(), // Identifier
             Kind::Number(n) => return format!("{}", n), // Number literal
             Kind::String(ref s) => s.as_str(), // String literal

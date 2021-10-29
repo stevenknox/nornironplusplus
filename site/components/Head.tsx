@@ -8,10 +8,10 @@ type MetaTag = {
 
 const metaTag = (name: string, content: string) => ({ name, content })
 
-const title = 'Aussie++'
-const description = 'The programming language from down under.'
+const title = 'NornIron++'
+const description = 'The programming language for our wee country.'
 const imageUrl = '/image.png'
-const author = '@zack_overflow'
+const author = '@stevenknox101'
 
 const metaTags: MetaTag[] = [
   metaTag('description', description),

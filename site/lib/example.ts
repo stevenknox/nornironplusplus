@@ -18,36 +18,37 @@ GIMME fibonacci(10);
 
 CHEERS C***!`
 
-const dreamtime = `G'DAY MATE!
+const dreamtime = `WHATS THE CRAIC?
 
-IMPOHT ME FUNC HitTheSack;
-IMPOHT ME FUNC ChuckSomeDice;
+GIVE'IS A HitTheSack;
+GIVE'IS A TakeAPunt;
 
-THE HARD YAKKA FOR dreamtime IS () <
-	GIMME "'boutta get some winks mate";
+do me a wee favor dreamtime IS () <
+	NO WORRIES "gonna go for a kip here";
 
-	I RECKON I'LL HAVE A WALKABOUT UNTIL (YEAH, NAH) <
-	    GIMME "zZz...";
-		
+	I RECKON I'LL HAVE A DANDER UNTIL (nope) <
+	    NO WORRIES, ITS "zZz...";
+
 		HitTheSack(1000);
 
-		YA RECKON ChuckSomeDice(0, 6) == 0 ? MATE FUCK THIS;
+		YA RECKON TakeAPunt(0, 6) == 0 ? LOADA BALLS
 	>
 
-	GIMME "that nap was bonza mate!";
+	NO WORRIES  "that wee nap was a belter mate!";
 >
 
 dreamtime();
 
-CHEERS C***!
+LATER MATE
+
 `
 
 const random_beer = `G'DAY MATE!
 
-IMPOHT ME FUNC ChuckSomeDice;
+IMPOHT ME FUNC TakeAPunt;
 
 THE HARD YAKKA FOR randomBeer IS () <
-	YA RECKON ChuckSomeDice(0, 3) IS A <
+	YA RECKON TakeAPunt(0, 3) IS A <
 		0 ~ BAIL "Fosters";
 		1 ~ BAIL "Coopers";
 		2 ~ BAIL "Pilsner";

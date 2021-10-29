@@ -1,3 +1,40 @@
+## NornIron++
+
+First run
+```
+git clone https://github.com/emscripten-core/emsdk.git
+cd emsdk
+./emsdk install latest
+./emsdk activate latest
+emsdk_env.bat
+
+then
+
+rustup default stable-x86_64-pc-windows-gnu
+rustup target add wasm32-unknown-emscripten
+
+```
+
+```
+cargo build
+```
+
+To deploy wasm
+
+```
+cargo build --release --target wasm32-unknown-emscripten
+cp target/wasm32-unknown-emscripten/release/aussie_plus_plus.js site/public/aussie_plus_plus.js
+cp target/wasm32-unknown-emscripten/release/aussie_plus_plus.wasm site/public/aussie_plus_plus.wasm
+```
+
+In ./site
+```
+npm run-script build
+npm run-script start
+```
+
+
+
 ![aussie_plus_plus](assets/code.png)
 # aussie++
 

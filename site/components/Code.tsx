@@ -15,7 +15,7 @@ import CodeDropdown from './CodeDropdown'
 const BREAKPOINTS = { mobile: 0, tablet: 768, desktop: 1280 }
 
 const defaultText =
-  '<h1 class="italic text-gray-300 border-b-2 border-gray-50 border-opacity-10 mb-1 pb-1"><span class="font-bold text-green-500">G&apos;DAY MATE!</span> HIT &apos;Run&apos; TO GET GOING</h1>'
+  '<h1 class="italic text-gray-300 border-b-2 border-gray-50 border-opacity-10 mb-1 pb-1"><span class="font-bold text-green-500">Alrite Mate!</span> HIT &apos;Run&apos; To get cracking</h1>'
 
 const hightlightWithLineNumbers = (input: string) =>
   highlight(input, aussieSyntax, 'aussie')

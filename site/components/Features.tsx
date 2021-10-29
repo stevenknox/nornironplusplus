@@ -2,21 +2,21 @@ import React from 'react'
 
 const features = [
   {
-    name: 'Aussie Syntax',
-    description: 'Oi mate! All your strayan lingo is valid syntax!',
-    icon: '🇦🇺'
-  },
-  {
-    name: 'Boomerangs > Curly braces',
-    description:
-      'Curly braces are for daft buggers, wield dangerous boomerangs as your block delimiters.',
-    icon: '🪃'
-  },
-  {
-    name: 'True aussie mode',
-    description: 'Where uʍop ǝpᴉsdn characters become valid code',
-    icon: '🙃'
+    name: 'Norn Irish Syntax',
+    description: 'Bout ye, have a wee go at this programming hing',
+    icon: 'ni'
   }
+  // {
+  //   name: 'Boomerangs > Curly braces',
+  //   description:
+  //     'Curly braces are for daft buggers, wield dangerous boomerangs as your block delimiters.',
+  //   icon: '🪃'
+  // },
+  // {
+  //   name: 'True norn iron mode',
+  //   description: 'Where uʍop ǝpᴉsdn characters become valid code',
+  //   icon: '🙃'
+  // }
 ]
 
 const Features = () => {
